@@ -2,12 +2,12 @@
   "name": "my-pakage_button",
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/react-library-scaffold.umd.js",
-  "module": "./dist/react-library-scaffold.es.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
-      "import": "./dist/react-library-scaffold.es.js",
-      "require": "./dist/react-library-scaffold.umd.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
     }
   },
   "scripts": {
